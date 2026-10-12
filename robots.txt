@@ -1,0 +1,15 @@
+# ================================================================
+#  APPLEGATE CHRISTIAN SCHOOLS — robots.txt
+#  applegateschool.sc.ke
+# ================================================================
+
+User-agent: *
+Allow: /
+
+# Block any server/config files
+Disallow: /.htaccess
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Sitemap location
+Sitemap: https://www.applegateschool.sc.ke/sitemap.xml
